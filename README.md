@@ -46,5 +46,6 @@ Graphics: Java 2D (java.awt.Graphics)
 2. Add a Start Menu (Play / Quit).
 3. Track and display High Scores.
 
-Author: Your Name
-License: MIT (or your choice)
+
+License: 
+This project is open-source.
