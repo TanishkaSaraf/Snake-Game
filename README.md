@@ -1,51 +1,64 @@
-🐍 Snake Game (Java Swing)
+# 🐍 Snake Game (Java Swing)
 
-A classic, nostalgia-inducing Snake Game built using Java Swing.
-Move the snake with your arrow keys, eat the apples to grow longer, and avoid hitting the walls or yourself.
+A classic, nostalgia-inducing Snake Game built using Java Swing.  
+Move the snake with your arrow keys, eat apples to grow longer, and avoid collisions.
 
-🎮 Gameplay
+---
 
-1. Use Arrow Keys (↑, ↓, ←, →) to control the snake’s direction.
-2. Eat the red apples to grow and increase your score.
-3. The game ends if the snake: Hits a wall, or runs into its own body.
+## 🎮 Gameplay
 
-🧩 Features
+1. Use Arrow Keys (↑, ↓, ←, →) to control the snake’s direction  
+2. Eat apples to grow and increase your score  
+3. The game ends if the snake:
+   - Hits a wall  
+   - Runs into its own body  
 
-✅ Simple and clean 2D graphics
-✅ Smooth controls using keyboard input
-✅ Real-time movement via Timer
-✅ Dynamic score tracking
-✅ Restart button for instant replay
+---
 
-⚙️ Tech Stack
+## 🧩 Features
 
-Language: Java
-GUI Library: Swing (javax.swing)
-Graphics: Java 2D (java.awt.Graphics)
+- Simple and clean 2D graphics  
+- Smooth keyboard controls  
+- Real-time movement using Timer  
+- Dynamic score tracking  
+- Restart functionality  
 
+---
 
-🚀 How to Run
+## ⚙️ Tech Stack
 
-1. Open your IDE (e.g., IntelliJ IDEA, Eclipse, or BlueJ).
-2. Create a new Java project.
-3. Add a new Java file named SnakeGameRestart.java.
-4. Copy and paste the full code into it.
-5. Run the program.
-6. Use the arrow keys to move the snake 🟢
+- Language: Java  
+- GUI Library: Swing (javax.swing)  
+- Graphics: Java 2D (java.awt.Graphics)  
 
-🧠 How It Works
+---
 
-1. The game uses a Timer to update every few milliseconds.
-2. Each update (frame) moves the snake, checks for collisions, and redraws the screen.
-3. When the snake eats an apple, its body grows and score increases.
-4. On collision, the game stops and displays “Game Over”.
+## 🚀 How to Run
 
-🪄 Possible Improvements
+1. Open your IDE (IntelliJ IDEA, Eclipse, or BlueJ)  
+2. Create a new Java project  
+3. Add a file named SnakeGameRestart.java  
+4. Paste the code into the file  
+5. Run the program  
+6. Use arrow keys to play  
 
-1. Add a Restart button to avoid rerunning of code.
-2. Add a Start Menu (Play / Quit).
-3. Track and display High Scores.
+---
 
+## 🧠 How It Works
 
-License: 
-This project is open-source.
+1. A Timer updates the game at fixed intervals  
+2. Each frame:
+   - Moves the snake  
+   - Checks collisions  
+   - Redraws the screen  
+3. Eating an apple increases length and score  
+4. Collision triggers Game Over  
+
+---
+
+## 🪄 Possible Improvements
+
+- Add a Start Menu (Play / Quit)  
+- Implement High Score tracking  
+- Add sound effects  
+- Introduce difficulty levels  
